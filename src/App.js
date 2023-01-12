@@ -87,8 +87,8 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col gap-8 w-screen h-screen bg-gray-100 items-center py-12 font-poppins text-gray-600 font-bold">
-      <h1 className="text-5xl text-gray-800">Simple TDEE Calculator</h1>
+    <div className="flex flex-col gap-8 w-screen h-screen bg-gray-100 items-center py-16 font-poppins text-gray-600 font-bold">
+      <h1 className="text-5xl text-gray-800 pb-4">Simple TDEE Calculator</h1>
       <SexSection userDetails={userDetails} setUserDetails={setUserDetails} />
       <MeasurementsSection userDetails={userDetails} setUserDetails={setUserDetails} />
       <ActivitySection userDetails={userDetails} setUserDetails={setUserDetails} />
